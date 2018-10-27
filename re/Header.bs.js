@@ -17,12 +17,21 @@ var header = Css.style(/* :: */[
     ]);
 
 var content = Css.style(/* :: */[
-      Css.margin2(Css.px(0), /* auto */-1065951377),
+      Css.display(/* flex */-1010954439),
       /* :: */[
-        Css.maxWidth(Css.px(936)),
+        Css.alignItems(/* center */98248149),
         /* :: */[
-          Css.padding(Css.px(8)),
-          /* [] */0
+          Css.justifyContent(/* spaceBetween */516682146),
+          /* :: */[
+            Css.margin2(Css.px(0), /* auto */-1065951377),
+            /* :: */[
+              Css.maxWidth(Css.px(936)),
+              /* :: */[
+                Css.padding(Css.px(8)),
+                /* [] */0
+              ]
+            ]
+          ]
         ]
       ]
     ]);
@@ -40,11 +49,14 @@ var link = Css.style(/* :: */[
       ]
     ]);
 
+var nav = Css.style(/* [] */0);
+
 var Styles = /* module */[
   /* header */header,
   /* content */content,
   /* h1 */h1,
-  /* link */link
+  /* link */link,
+  /* nav */nav
 ];
 
 function make(siteTitle, _) {
@@ -65,7 +77,9 @@ function make(siteTitle, _) {
                               className: content
                             }, React.createElement("h1", {
                                   className: h1
-                                }, ReasonReact.element(undefined, undefined, Gatsby$ReactTemplate.Link[/* make */0]("/", link, /* array */[siteTitle])))));
+                                }, ReasonReact.element(undefined, undefined, Gatsby$ReactTemplate.Link[/* make */0]("/", link, /* array */[siteTitle]))), React.createElement("nav", {
+                                  className: nav
+                                }, ReasonReact.element(undefined, undefined, Gatsby$ReactTemplate.Link[/* make */0]("/blog", link, /* array */["Blog"])))));
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],

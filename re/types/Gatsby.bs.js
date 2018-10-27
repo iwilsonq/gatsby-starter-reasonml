@@ -13,5 +13,14 @@ function make(to_, className, children) {
 
 var Link = /* module */[/* make */make];
 
+function make$1(query, children) {
+  return ReasonReact.wrapJsForReason(Gatsby.StaticQuery, {
+              query: query
+            }, children);
+}
+
+var StaticQuery = /* module */[/* make */make$1];
+
 exports.Link = Link;
+exports.StaticQuery = StaticQuery;
 /* gatsby Not a pure module */

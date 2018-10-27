@@ -19,5 +19,8 @@
     "reason-react",
     "bs-css"
   ],
+  "ppx-flags": [
+    "graphql_ppx/ppx"
+  ],
   "refmt": 3
 }
