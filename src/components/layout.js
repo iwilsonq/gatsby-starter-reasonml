@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../../re/Header.bs'
-import './layout.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,7 +21,10 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Static site built with Gatsbyjs, ReasonML, and React.' },
+            {
+              name: 'description',
+              content: 'Static site built with Gatsbyjs, ReasonML, and React.',
+            },
             { name: 'keywords', content: 'reasonml, bucklescript, react' },
           ]}
         >
