@@ -1,17 +1,17 @@
 ####{BSB GENERATED: NO EDIT
 B lib/bs
 FLG -open ReactTemplate
-FLG -ppx /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/graphql_ppx/ppx
-FLG -ppx '/Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
-FLG -ppx /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/bs-platform/lib/bsppx.exe
-S /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/bs-platform/lib/ocaml
-B /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/bs-platform/lib/ocaml
+FLG -ppx /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/graphql_ppx/ppx
+FLG -ppx '/Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
+FLG -ppx /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/bs-platform/lib/bsppx.exe
+S /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/bs-platform/lib/ocaml
+B /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/bs-platform/lib/ocaml
 FLG -nostdlib -color always
 FLG -w -30-40+6+7+27+32..39+44+45+101
-S /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/reason-react/lib/ocaml
-B /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/reason-react/lib/ocaml
-S /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/bs-css/lib/ocaml
-B /Users/ianwilson/ui-workspace/gatsby-reasonml-starter/node_modules/bs-css/lib/ocaml
+S /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/reason-react/lib/ocaml
+B /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/reason-react/lib/ocaml
+S /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/bs-css/lib/ocaml
+B /Users/ianwilson/reason-workspace/gatsby-starter-reasonml/node_modules/bs-css/lib/ocaml
 S re
 B lib/bs/re
 S re/types
