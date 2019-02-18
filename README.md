@@ -7,9 +7,7 @@
   Gatsby ReasonML Starter
 </h1>
 
-Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+This starter for Gatsby is inspired by the default starter blog. Except this one supports ReasonML with its strongly typed, functional goodness.
 
 ## 🚀 Quick start
 
@@ -28,7 +26,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     # create a new Gatsby site using the ReasonML starter
-    gatsby new gatsby-starter-reasonml
+    gatsby new my-super-neat-reasonml-site https://github.com/iwilsonq/gatsby-starter-reasonml
     ```
 
 3.  **Start developing.**
@@ -36,7 +34,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd gatsby-starter-reasonml/
+    cd my-super-neat-reasonml-site/
     npm run dev:bsb
     npm run dev:gatsby
     ```
@@ -44,9 +42,14 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 4.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
-    
-    *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
-    
-    Open the the `gatsby-starter-reasonml` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-    
+
+    \_Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).\_
+
+    Open the the `my-super-neat-reasonml-site` directory (or whatever sensible name you gave it) in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+
 ## 🧐 What's inside?
+
+- Gatsby v2
+- BuckleScript platform v4
+- [bs-css](https://github.com/SentiaAnalytics/bs-css) (based on [emotion](https://emotion.sh))
+- [bs-date-fns](https://github.com/SllyQ/bs-date-fns)
