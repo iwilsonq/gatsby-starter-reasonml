@@ -17,7 +17,8 @@
   "namespace": true,
   "bs-dependencies": [
     "reason-react",
-    "bs-css"
+    "bs-css",
+    "bs-date-fns"
   ],
   "ppx-flags": [
     "graphql_ppx/ppx"

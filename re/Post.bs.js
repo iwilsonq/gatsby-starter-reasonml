@@ -4,31 +4,58 @@
 var Css = require("bs-css/src/Css.js");
 var React = require("react");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
+var Utils$ReactTemplate = require("./Utils.bs.js");
 var Gatsby$ReactTemplate = require("./types/Gatsby.bs.js");
 
 function str(prim) {
   return prim;
 }
 
-var post = Css.style(/* :: */[
-      Css.border(Css.px(1), /* solid */12956715, /* `hex */[
-            5194459,
-            "000"
-          ]),
+var article = Css.style(/* :: */[
+      Css.marginBottom(Css.px(32)),
+      /* [] */0
+    ]);
+
+var link = Css.style(/* :: */[
+      Css.textDecoration(/* none */-922086728),
       /* :: */[
-        Css.padding(Css.px(8)),
-        /* :: */[
-          Css.marginBottom(Css.px(12)),
-          /* [] */0
-        ]
+        Css.hover(/* :: */[
+              Css.textDecoration(/* underline */131142924),
+              /* :: */[
+                Css.textDecorationColor(Css.red),
+                /* [] */0
+              ]
+            ]),
+        /* [] */0
       ]
     ]);
 
-var Styles = /* module */[/* post */post];
+var h2 = Css.style(/* :: */[
+      Css.color(Css.red),
+      /* [] */0
+    ]);
+
+var p = Css.style(/* :: */[
+      Css.color(Css.black),
+      /* [] */0
+    ]);
+
+var date = Css.style(/* :: */[
+      Css.color(Css.darkgray),
+      /* [] */0
+    ]);
+
+var Styles = /* module */[
+  /* article */article,
+  /* link */link,
+  /* h2 */h2,
+  /* p */p,
+  /* date */date
+];
 
 var component = ReasonReact.statelessComponent("Post");
 
-function make(post$1, _children) {
+function make(post, _children) {
   return /* record */[
           /* debugName */component[/* debugName */0],
           /* reactClassInternal */component[/* reactClassInternal */1],
@@ -40,9 +67,15 @@ function make(post$1, _children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              return ReasonReact.element(undefined, undefined, Gatsby$ReactTemplate.Link[/* make */0]("/blog/" + post$1.frontmatter.path, "", /* array */[React.createElement("article", {
-                                    className: post
-                                  }, React.createElement("h3", undefined, post$1.frontmatter.title), React.createElement("p", undefined, post$1.excerpt), React.createElement("small", undefined, post$1.frontmatter.date))]));
+              return React.createElement("article", {
+                          className: article
+                        }, ReasonReact.element(undefined, undefined, Gatsby$ReactTemplate.Link[/* make */0]("/blog/" + post.frontmatter.path, link, /* array */[React.createElement("h2", {
+                                        className: h2
+                                      }, post.frontmatter.title)])), React.createElement("p", {
+                              className: p
+                            }, post.excerpt), React.createElement("small", {
+                              className: date
+                            }, Utils$ReactTemplate.formatDate(post.frontmatter.date)));
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],
@@ -55,4 +88,4 @@ exports.str = str;
 exports.Styles = Styles;
 exports.component = component;
 exports.make = make;
-/* post Not a pure module */
+/* article Not a pure module */

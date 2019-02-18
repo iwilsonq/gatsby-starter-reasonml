@@ -1837,6 +1837,13 @@ bs-css@^7.2.0:
   dependencies:
     glamor "^2.0.0"
 
+bs-date-fns@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/bs-date-fns/-/bs-date-fns-0.1.6.tgz#29983fb072611539e7585d85450759ad366d61f8"
+  integrity sha512-pZ5QuWKV6OK+8a8VYHmyqDJaWNqIp7MRQwokR9tTorpbcOary/jcjv/+RXgXd+IZwief64NaY4KJjABihzdBeg==
+  dependencies:
+    date-fns "^1.29.0"
+
 bs-platform@^4.0.6:
   version "4.0.18"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.18.tgz#d17b8693ba1f714d9b27e0ddb365f2069ba4b8a0"
@@ -2867,6 +2874,11 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+date-fns@^1.29.0:
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
+  integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
 
 date-now@^0.1.4:
   version "0.1.4"

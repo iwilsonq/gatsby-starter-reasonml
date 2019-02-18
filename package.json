@@ -5,6 +5,7 @@
   "author": "Ian Wilson <iwilsonq@gmail.com>",
   "dependencies": {
     "bs-css": "^7.2.0",
+    "bs-date-fns": "^0.1.6",
     "bs-platform": "^4.0.6",
     "gatsby": "^2.0.19",
     "gatsby-plugin-manifest": "^2.0.5",
