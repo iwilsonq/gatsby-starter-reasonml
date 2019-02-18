@@ -25,9 +25,9 @@ var content = Css.style(/* :: */[
           /* :: */[
             Css.margin2(Css.px(0), /* auto */-1065951377),
             /* :: */[
-              Css.maxWidth(Css.px(936)),
+              Css.maxWidth(Css.px(1000)),
               /* :: */[
-                Css.padding(Css.px(8)),
+                Css.padding2(Css.px(16), Css.px(24)),
                 /* [] */0
               ]
             ]

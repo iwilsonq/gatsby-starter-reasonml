@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-reasonml",
-  "description": "This app's gonna be sweet.",
+  "description": "Gatsby starter to create static sites using type-safe ReasonML.",
   "version": "1.0.0",
   "author": "Ian Wilson <iwilsonq@gmail.com>",
   "dependencies": {

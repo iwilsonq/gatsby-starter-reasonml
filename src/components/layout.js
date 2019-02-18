@@ -34,9 +34,10 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: 700,
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
+            fontFamily: '-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif'
           }}
         >
           {children}

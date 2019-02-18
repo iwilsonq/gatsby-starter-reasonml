@@ -10,8 +10,8 @@ module Styles = {
       alignItems(`center),
       justifyContent(`spaceBetween),
       margin2(~v=px(0), ~h=`auto),
-      maxWidth(px(936)),
-      padding(px(8)),
+      maxWidth(px(1000)),
+      padding2(~v=px(16), ~h=px(24))
     ]);
   let h1 = style([margin(px(0))]);
   let link = style([color(white), textDecoration(none)]);
