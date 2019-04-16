@@ -1,12 +1,12 @@
 {
   "name": "gatsby-starter-reasonml",
   "description": "Gatsby starter to create static sites using type-safe ReasonML.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Ian Wilson <iwilsonq@gmail.com>",
   "dependencies": {
     "bs-css": "^7.2.0",
     "bs-date-fns": "^0.1.6",
-    "bs-platform": "^4.0.6",
+    "bs-platform": "^5.0.2",
     "gatsby": "^2.0.19",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
@@ -14,10 +14,11 @@
     "gatsby-source-filesystem": "^2.0.5",
     "gatsby-transformer-remark": "^2.1.9",
     "normalize-css": "^2.3.1",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "reason-react": "^0.5.3"
+    "reason-react": "^0.7.0",
+    "upgrade-reason-react": "git+https://github.com/chenglou/upgrade-reason-react.git#0.6.0-to-0.7.0"
   },
   "keywords": [
     "gatsby"
