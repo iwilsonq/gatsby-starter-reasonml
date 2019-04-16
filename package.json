@@ -7,6 +7,7 @@
     "bs-css": "^7.2.0",
     "bs-date-fns": "^0.1.6",
     "bs-platform": "^5.0.2",
+    "core-js": "^2.6.5",
     "gatsby": "^2.0.19",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
