@@ -4,20 +4,20 @@
   "version": "2.0.0",
   "author": "Ian Wilson <iwilsonq@gmail.com>",
   "dependencies": {
-    "bs-css": "^7.2.0",
+    "bs-css": "^11.0.0",
     "bs-date-fns": "^0.1.6",
-    "bs-platform": "^5.0.2",
-    "core-js": "^2.6.5",
-    "gatsby": "^2.0.19",
-    "gatsby-plugin-manifest": "^2.0.5",
-    "gatsby-plugin-offline": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-source-filesystem": "^2.0.5",
-    "gatsby-transformer-remark": "^2.1.9",
+    "bs-platform": "^5.2.1",
+    "core-js": "^3.4.7",
+    "gatsby": "^2.18.6",
+    "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-offline": "^3.0.26",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-remark": "^2.6.39",
     "normalize-css": "^2.3.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
     "reason-react": "^0.7.0"
   },
   "keywords": [
@@ -34,8 +34,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "graphql_ppx": "^0.2.7",
-    "prettier": "^1.14.2"
+    "graphql_ppx": "^0.2.8",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
