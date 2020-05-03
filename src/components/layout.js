@@ -1,8 +1,7 @@
-import React from 'react'
+import { graphql, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
-
+import React from 'react'
+import { Helmet } from 'react-helmet'
 import Header from '../../re/Header.bs'
 
 const Layout = ({ children }) => (
@@ -16,7 +15,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -37,7 +36,8 @@ const Layout = ({ children }) => (
             maxWidth: 700,
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
-            fontFamily: '-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif'
+            fontFamily:
+              '-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif',
           }}
         >
           {children}

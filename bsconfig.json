@@ -7,19 +7,20 @@
     "dir": "re",
     "subdirs": true
   },
-  "package-specs": [{
-    "module": "commonjs",
-    "in-source": true
-  }],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": [
     "reason-react",
     "bs-css",
+    "bs-css-emotion",
     "bs-date-fns"
   ],
-  "ppx-flags": [
-    "graphql_ppx/ppx"
-  ],
+  "ppx-flags": ["@baransu/graphql_ppx_re/ppx6"],
   "refmt": 3
 }
